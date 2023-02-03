@@ -26,5 +26,6 @@
     {"name":"state_player_dead","order":2,"path":"scripts/state_player_dead/state_player_dead.yy",},
     {"name":"move_player","order":3,"path":"scripts/move_player/move_player.yy",},
     {"name":"spr_player_walk","order":1,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
+    {"name":"get_gamepad_id","order":2,"path":"scripts/get_gamepad_id/get_gamepad_id.yy",},
   ],
 }

@@ -44,6 +44,7 @@
     {"id":{"name":"state_player_dead","path":"scripts/state_player_dead/state_player_dead.yy",},"order":0,},
     {"id":{"name":"move_player","path":"scripts/move_player/move_player.yy",},"order":0,},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":0,},
+    {"id":{"name":"get_gamepad_id","path":"scripts/get_gamepad_id/get_gamepad_id.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

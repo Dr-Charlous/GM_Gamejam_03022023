@@ -3,6 +3,7 @@ spd = 2.4;
 hspd = 0;
 vspd = 0;
 facing = 1;
+gamepad_id = 0;
 
 // States
 enum PlayerState {
