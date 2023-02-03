@@ -18,9 +18,12 @@
     {"name":"Player States","order":4,"path":"folders/Scripts/Player/Player States.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"player_animation","order":6,"path":"scripts/player_animation/player_animation.yy",},
+    {"name":"spr_player_dead","order":2,"path":"sprites/spr_player_dead/spr_player_dead.yy",},
     {"name":"outside_bounds","order":5,"path":"scripts/outside_bounds/outside_bounds.yy",},
     {"name":"init_player_state","order":2,"path":"scripts/init_player_state/init_player_state.yy",},
     {"name":"state_player_walk","order":1,"path":"scripts/state_player_walk/state_player_walk.yy",},
+    {"name":"state_player_dead","order":2,"path":"scripts/state_player_dead/state_player_dead.yy",},
     {"name":"move_player","order":3,"path":"scripts/move_player/move_player.yy",},
     {"name":"spr_player_walk","order":1,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
   ],

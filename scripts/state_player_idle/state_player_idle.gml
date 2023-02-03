@@ -9,4 +9,7 @@ function state_player_idle(){
 	
 	// Outside bounds
 	outside_bounds();
+	
+	// Animation
+	player_animation();
 }
