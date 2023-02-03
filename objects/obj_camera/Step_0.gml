@@ -1,12 +1,19 @@
-// set current xy to match with room size
-var current_x = clamp(camera_get_view_x(camera),0,room_width-camera_get_view_width(camera));
-var current_y = clamp(camera_get_view_y(camera),0,room_height-camera_get_view_height(camera));
-
 // screen shake
 if is_screen_shaking {
-	current_x += random_range(-screen_shake_amount, screen_shake_amount);
-	current_y += random_range(-screen_shake_amount, screen_shake_amount);
+	x += random_range(-screen_shake_amount, screen_shake_amount);
+	y += random_range(-screen_shake_amount, screen_shake_amount);
 }
 
-// update camera position
-camera_set_view_pos(camera,current_x,current_y);
+// Update destination
+xTo = follow.x;
+yTo = follow.y;
+
+// Update object position
+x += (xTo - x) / 25;
+y += (yTo - y) / 25;
+
+x = clamp(x, view_w_half, room_width - view_w_half);
+y = clamp(y, view_h_half, room_height - view_h_half);
+
+// Update camera view
+camera_set_view_pos(cam, x-view_w_half, y-view_h_half);

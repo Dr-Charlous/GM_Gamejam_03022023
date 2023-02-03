@@ -23,5 +23,4 @@ function init_player_input() {
 		hspd = (rkey - lkey);
 		vspd = (dkey - ukey);
 	}
-	
 }
