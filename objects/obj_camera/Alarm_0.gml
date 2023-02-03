@@ -1,0 +1,1 @@
+is_screen_shaking = false;

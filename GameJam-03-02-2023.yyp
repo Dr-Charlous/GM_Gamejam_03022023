@@ -38,6 +38,7 @@
     {"id":{"name":"state_player_idle","path":"scripts/state_player_idle/state_player_idle.yy",},"order":0,},
     {"id":{"name":"spr_player_dead","path":"sprites/spr_player_dead/spr_player_dead.yy",},"order":0,},
     {"id":{"name":"outside_bounds","path":"scripts/outside_bounds/outside_bounds.yy",},"order":0,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":0,},
     {"id":{"name":"init_player_state","path":"scripts/init_player_state/init_player_state.yy",},"order":0,},
     {"id":{"name":"state_player_walk","path":"scripts/state_player_walk/state_player_walk.yy",},"order":0,},
@@ -46,6 +47,8 @@
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":0,},
     {"id":{"name":"get_gamepad_id","path":"scripts/get_gamepad_id/get_gamepad_id.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"screen_shake","path":"scripts/screen_shake/screen_shake.yy",},"order":0,},
+    {"id":{"name":"dying_timer","path":"scripts/dying_timer/dying_timer.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
