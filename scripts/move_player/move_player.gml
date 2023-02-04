@@ -5,6 +5,8 @@ function move_player(){
 				spd = assassin_spd;
 		} else if state == PlayerState.ShockWave {
 			spd = shockwave_spd;
+		} else if state == PlayerState.Shoot {
+			spd = shoot_spd;
 		} else {
 			spd = original_spd;
 		}

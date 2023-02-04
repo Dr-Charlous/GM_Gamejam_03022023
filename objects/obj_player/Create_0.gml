@@ -22,6 +22,12 @@ is_shockwaving = false;
 shockwave_time = 40;
 shockwave_spd = 2.5; // speed of the character in shockwave state
 
+// Shoot
+can_shoot = true;
+is_shooting = false;
+shoot_time = 26;
+shoot_spd = 2.05; // speed of the character in shoot state
+
 // Assassin
 assassin_spd = 3; // speed of the character in assassin state
 
@@ -31,7 +37,8 @@ enum PlayerState {
 	Walk,
 	Dead,
 	Assassin,
-	ShockWave
+	ShockWave,
+	Shoot
 }
 
 state = PlayerState.Idle;
@@ -42,3 +49,4 @@ state_array[PlayerState.Walk] = state_player_walk;
 state_array[PlayerState.Dead] = state_player_dead;
 state_array[PlayerState.Assassin] = state_player_assassin;
 state_array[PlayerState.ShockWave] = state_player_shockwave;
+state_array[PlayerState.Shoot] = state_player_shoot;

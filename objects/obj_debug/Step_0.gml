@@ -17,3 +17,6 @@ if (keyboard_check_pressed(ord("K")))
 	
 if (keyboard_check_pressed(ord("L")))
 	obj_player.state = PlayerState.ShockWave;
+	
+if (keyboard_check_pressed(ord("M")))
+	obj_player.state = PlayerState.Shoot;
