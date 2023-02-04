@@ -48,6 +48,7 @@
     {"name":"collision","order":4,"path":"scripts/collision/collision.yy",},
     {"name":"S_Big_Demonic_Stone_001","order":1,"path":"sprites/S_Big_Demonic_Stone_001/S_Big_Demonic_Stone_001.yy",},
     {"name":"S_Mid_Demonic_Stone_003","order":20,"path":"sprites/S_Mid_Demonic_Stone_003/S_Mid_Demonic_Stone_003.yy",},
+    {"name":"obj_trunk","order":13,"path":"objects/obj_trunk/obj_trunk.yy",},
     {"name":"spr_red","order":4,"path":"sprites/spr_red/spr_red.yy",},
     {"name":"S_Big_Demonic_Stone_005","order":4,"path":"sprites/S_Big_Demonic_Stone_005/S_Big_Demonic_Stone_005.yy",},
     {"name":"S_Small_Demonic_Stone_004","order":44,"path":"sprites/S_Small_Demonic_Stone_004/S_Small_Demonic_Stone_004.yy",},

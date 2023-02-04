@@ -67,6 +67,7 @@
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Stone_001","path":"sprites/S_Big_Demonic_Stone_001/S_Big_Demonic_Stone_001.yy",},"order":0,},
     {"id":{"name":"S_Mid_Demonic_Stone_003","path":"sprites/S_Mid_Demonic_Stone_003/S_Mid_Demonic_Stone_003.yy",},"order":0,},
+    {"id":{"name":"obj_trunk","path":"objects/obj_trunk/obj_trunk.yy",},"order":0,},
     {"id":{"name":"spr_red","path":"sprites/spr_red/spr_red.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Stone_005","path":"sprites/S_Big_Demonic_Stone_005/S_Big_Demonic_Stone_005.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Stone_002","path":"sprites/S_Big_Demonic_Stone_002/S_Big_Demonic_Stone_002.yy",},"order":0,},
