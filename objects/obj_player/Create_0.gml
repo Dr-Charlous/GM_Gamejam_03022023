@@ -46,7 +46,7 @@ enum PlayerState {
 	Shoot
 }
 
-state = PlayerState.Walk;
+state = obj_game.last_player_state;
 last_state = PlayerState.Walk;
 
 state_array[PlayerState.Walk] = state_player_walk;

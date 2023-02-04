@@ -7,7 +7,8 @@ function init_player_input() {
 		// Controller Support
 		hspd = round(gamepad_axis_value(gamepad_id, gp_axislh));
 		vspd = round(gamepad_axis_value(gamepad_id, gp_axislv));
-		actionkey =  mouse_check_button(mb_left) || gamepad_button_check_pressed(gamepad_id ,gp_shoulderr) || gamepad_button_check_pressed(gamepad_id ,gp_shoulderl); // dash key
+		actionkey =  mouse_check_button(mb_left) || gamepad_button_check_pressed(gamepad_id ,gp_shoulderrb) || gamepad_button_check_pressed(gamepad_id ,gp_shoulderr); // dash key
+		possesskey = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(gamepad_id, gp_shoulderl) || gamepad_button_check_pressed(gamepad_id, gp_shoulderlb);
 		
 		// Set last button controller
 		if (gp_axislh || gp_axislv)
