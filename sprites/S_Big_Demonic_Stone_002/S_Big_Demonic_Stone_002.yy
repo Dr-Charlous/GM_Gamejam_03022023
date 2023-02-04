@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "S_Big_Demonic_Stone_002",
   "bbox_bottom": 47,
-  "bbox_left": 7,
+  "bbox_left": 8,
   "bbox_right": 40,
   "bbox_top": 0,
   "bboxMode": 0,

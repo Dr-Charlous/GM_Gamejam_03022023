@@ -129,6 +129,7 @@
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},"order":0,},
     {"id":{"name":"state_player_shoot","path":"scripts/state_player_shoot/state_player_shoot.yy",},"order":0,},
     {"id":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},"order":0,},
+    {"id":{"name":"Room_test_art","path":"rooms/Room_test_art/Room_test_art.yy",},"order":0,},
     {"id":{"name":"S_Mid_Demonic_Stone_002","path":"sprites/S_Mid_Demonic_Stone_002/S_Mid_Demonic_Stone_002.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Tree_002","path":"sprites/S_Big_Demonic_Tree_002/S_Big_Demonic_Tree_002.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Plan_007","path":"sprites/S_Small_Demonic_Plan_007/S_Small_Demonic_Plan_007.yy",},"order":0,},
@@ -202,6 +203,7 @@
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"roomId":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_test_art","path":"rooms/Room_test_art/Room_test_art.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

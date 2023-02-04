@@ -107,6 +107,7 @@
     {"name":"obj_quit_button","order":2,"path":"objects/obj_quit_button/obj_quit_button.yy",},
     {"name":"state_player_shoot","order":5,"path":"scripts/state_player_shoot/state_player_shoot.yy",},
     {"name":"Level_1","order":4,"path":"rooms/Level_1/Level_1.yy",},
+    {"name":"Room_test_art","order":5,"path":"rooms/Room_test_art/Room_test_art.yy",},
     {"name":"S_Mid_Demonic_Stone_002","order":19,"path":"sprites/S_Mid_Demonic_Stone_002/S_Mid_Demonic_Stone_002.yy",},
     {"name":"S_Big_Demonic_Tree_002","order":7,"path":"sprites/S_Big_Demonic_Tree_002/S_Big_Demonic_Tree_002.yy",},
     {"name":"S_Small_Demonic_Plan_007","order":30,"path":"sprites/S_Small_Demonic_Plan_007/S_Small_Demonic_Plan_007.yy",},
