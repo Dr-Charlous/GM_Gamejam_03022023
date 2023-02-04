@@ -34,6 +34,7 @@
     {"name":"S_Big_Demonic_Tree_005","order":10,"path":"sprites/S_Big_Demonic_Tree_005/S_Big_Demonic_Tree_005.yy",},
     {"name":"player_state_update","order":9,"path":"scripts/player_state_update/player_state_update.yy",},
     {"name":"obj_bullet","order":2,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"spr_2eyed_death","order":1,"path":"sprites/spr_2eyed_death/spr_2eyed_death.yy",},
     {"name":"spr_play","order":1,"path":"sprites/spr_play/spr_play.yy",},
     {"name":"spr_bullet","order":4,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"S_Big_Demonic_Stone_003","order":2,"path":"sprites/S_Big_Demonic_Stone_003/S_Big_Demonic_Stone_003.yy",},

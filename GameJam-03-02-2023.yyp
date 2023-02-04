@@ -53,6 +53,7 @@
     {"id":{"name":"player_state_update","path":"scripts/player_state_update/player_state_update.yy",},"order":0,},
     {"id":{"name":"spr_player_dead","path":"sprites/spr_player_dead/spr_player_dead.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":0,},
+    {"id":{"name":"spr_2eyed_death","path":"sprites/spr_2eyed_death/spr_2eyed_death.yy",},"order":0,},
     {"id":{"name":"spr_play","path":"sprites/spr_play/spr_play.yy",},"order":0,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Stone_003","path":"sprites/S_Big_Demonic_Stone_003/S_Big_Demonic_Stone_003.yy",},"order":0,},
