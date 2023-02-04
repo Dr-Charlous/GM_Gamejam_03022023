@@ -7,9 +7,9 @@ vspd = sign(y - yprevious);
 randomize();
 var path = path_add();
 
-if !collision_line(x,y,obj_player.x,obj_player.y,obj_wall_switch,false,false) {
-	if (collision_circle(x,y,range_view,obj_player,false,false) and !collision_circle(x,y,range_attack,obj_player,false,false)) {
-		if mp_grid_path(grid, path, x, y, obj_player.x, obj_player.y, 1) {
+if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall_switch ,false ,false) {
+	if (collision_circle(x,y,range_view,obj_player,false,false)) {
+		if mp_grid_path(grid, path, x, y, x+(x-obj_player.x), y+(y-obj_player.y), 1) {
 			path_start(path, spd, 0, 0);
 		}
 	}

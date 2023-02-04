@@ -7,12 +7,28 @@ vspd = sign(y - yprevious);
 randomize();
 var path = path_add();
 
-if !collision_line(x,y,obj_player.x,obj_player.y,obj_wall_switch,false,false) {
-	if (collision_circle(x,y,range_view,obj_player,false,false) and !collision_circle(x,y,range_attack,obj_player,false,false)) {
-		if mp_grid_path(grid, path, x, y, obj_player.x, obj_player.y, 1) {
-			path_start(path, spd, 0, 0);
+if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall_switch ,false ,false) {
+	
+	if !charging {
+		
+		if (collision_circle(x, y, range_view, obj_player, false, false)) {
+			
+			if mp_grid_path(grid, path, x, y, obj_player.x, obj_player.y, 1) {
+				path_start(path, spd, 0, 0);
+			}
+			
 		}
+		
+		if collision_circle(x, y, range_attack, obj_player, false, false) {
+			path_end();
+			x_target_dash = obj_player.x;
+			y_target_dash = obj_player.y;
+			alarm[1] = 1.5*60;
+			charging = true;
+		}
+		
 	}
+	
 } else if doing = 0 {
 	var range_x = irandom_range(-range_view, range_view);
 	var range_y = irandom_range(-range_view, range_view);
