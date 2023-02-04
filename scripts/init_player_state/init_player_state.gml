@@ -7,15 +7,20 @@ function init_player_input() {
 		// Controller Support
 		hspd = round(gamepad_axis_value(gamepad_id, gp_axislh));
 		vspd = round(gamepad_axis_value(gamepad_id, gp_axislv));
+		dashkey =  keyboard_check(vk_space) || gamepad_button_check_pressed(gamepad_id ,gp_shoulderr) || gamepad_button_check_pressed(gamepad_id ,gp_shoulderl); // dash key
+		
 		// Set last button controller
 		if (gp_axislh || gp_axislv)
 			last_button_pressed = 1;
+	} else {
+		dashkey = keyboard_check(vk_space);
 	}
 	// Keyboard Support
 	var rkey = keyboard_check(vk_right) or keyboard_check(ord("D")); // WASD
 	var lkey = keyboard_check(vk_left) or keyboard_check(ord("Q"));
 	var ukey = keyboard_check(vk_up) or keyboard_check(ord("Z"));
 	var dkey = keyboard_check(vk_down) or keyboard_check(ord("S"));
+	
 	// Set last button keyboard
 	if (rkey || lkey || ukey || dkey) 
 		last_button_pressed = 0;

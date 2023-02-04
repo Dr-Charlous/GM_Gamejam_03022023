@@ -7,6 +7,9 @@ function state_player_walk(){
 	// Move the player
 	move_player();
 	
+	// Dash
+	dash();
+	
 	// Outside bounds
 	outside_bounds();
 	
