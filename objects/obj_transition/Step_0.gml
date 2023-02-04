@@ -23,7 +23,7 @@ if (mode != TRANS_MODE.OFF)
 			{
 				if (intro)
 					instance_destroy();
-				else 
+				else
 					room_restart();
 				mode = TRANS_MODE.OFF;
 				break;
