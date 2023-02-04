@@ -3,7 +3,12 @@ function ai_animation(){
 	if state == AiState.Dead {
 		// Wait some time before anim and stop loop
 		sprite_index = spr_player_dead;
-		
+		var my_corpse = instance_create_layer(x,y,"Instances",obj_dead);
+		with(my_corpse) {
+			sprite_index = spr_player_dead;
+			alarm[0] = 180;
+		}
+		instance_destroy();
 	} else {
 		// If Not Idle
 		if (hspd!= 0 or vspd != 0) {

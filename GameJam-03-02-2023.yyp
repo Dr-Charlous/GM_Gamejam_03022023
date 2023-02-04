@@ -87,6 +87,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_shroom_side","path":"sprites/spr_shroom_side/spr_shroom_side.yy",},"order":0,},
     {"id":{"name":"screen_shake","path":"scripts/screen_shake/screen_shake.yy",},"order":0,},
+    {"id":{"name":"obj_dead","path":"objects/obj_dead/obj_dead.yy",},"order":0,},
     {"id":{"name":"dying_timer","path":"scripts/dying_timer/dying_timer.yy",},"order":0,},
     {"id":{"name":"bullet_die","path":"scripts/bullet_die/bullet_die.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

@@ -3,5 +3,6 @@ if (!invincible) {
 	alarm[INVINCIBILITY] = invincibility_time;
 	with (other) bullet_die();
 	knockback(6, other.direction);
-	health_points--;
+	if health_points > 0
+		health_points--;
 }
