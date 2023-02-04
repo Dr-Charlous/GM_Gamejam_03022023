@@ -62,3 +62,16 @@ if health_points <= 0 {
 		sprite_index = spr_player_idle;
 	}
 }
+
+// Player Collision
+if (distance_to_object(obj_player)) < 10 {
+	if (obj_player.spd == obj_player.dash_spd) {
+	if (!invincible) {
+		invincible = true;
+		alarm[INVINCIBILITY] = invincibility_time;
+		screen_shake(0.3,5);
+		if health_points > 0
+			health_points--;
+		}
+	}	
+}
