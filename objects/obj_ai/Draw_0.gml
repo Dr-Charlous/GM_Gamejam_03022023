@@ -6,3 +6,5 @@ draw_circle(x,y,range_attack,true);
 if (path_exists(path_index)) {
 	draw_path(path_index, 0, 0, true);
 }
+
+draw_text(x,y+20,health_points);

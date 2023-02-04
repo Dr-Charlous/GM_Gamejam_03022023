@@ -10,6 +10,9 @@ function state_ai_idle(){
 	// Outside bounds
 	outside_bounds();
 	
+	// Check Health
+	enemy_check_health();
+	
 	// Animation
 	ai_animation();
 }
