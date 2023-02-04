@@ -10,21 +10,28 @@ timer = 0;
 death_time = 420; // in frames (1 seconde = 60 frames)
 
 // Dash
-dashkey = false;
+actionkey = false;
 can_dash = true;
 is_dashing = false;
 dash_spd = 12;
 dash_distance = 11;
 
+// Shockwave
+can_shockwave = true;
+is_shockwaving = false;
+shockwave_time = 40;
+shockwave_spd = 2.5; // speed of the character in shockwave state
+
 // Assassin
-assassin_spd = 3;
+assassin_spd = 3; // speed of the character in assassin state
 
 // States
 enum PlayerState {
 	Idle,
 	Walk,
 	Dead,
-	Assassin
+	Assassin,
+	ShockWave
 }
 
 state = PlayerState.Idle;
@@ -34,3 +41,4 @@ state_array[PlayerState.Idle] = state_player_idle;
 state_array[PlayerState.Walk] = state_player_walk;
 state_array[PlayerState.Dead] = state_player_dead;
 state_array[PlayerState.Assassin] = state_player_assassin;
+state_array[PlayerState.ShockWave] = state_player_shockwave;

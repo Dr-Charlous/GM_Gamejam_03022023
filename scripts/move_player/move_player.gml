@@ -3,6 +3,8 @@ function move_player(){
 		if state == PlayerState.Assassin {
 			if (spd != dash_spd)
 				spd = assassin_spd;
+		} else if state == PlayerState.ShockWave {
+			spd = shockwave_spd;
 		} else {
 			spd = original_spd;
 		}

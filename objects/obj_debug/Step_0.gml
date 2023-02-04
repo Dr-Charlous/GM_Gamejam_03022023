@@ -3,9 +3,6 @@ if (keyboard_check_pressed(ord("R")))
 	room_restart();
 	
 // Auto Set States
-if (keyboard_check_pressed(ord("K")))
-	obj_player.state = PlayerState.Assassin;
-	
 if (keyboard_check_pressed(ord("O")))
 	obj_player.state = PlayerState.Walk;
 	
@@ -14,3 +11,9 @@ if (keyboard_check_pressed(ord("I")))
 	
 if (keyboard_check_pressed(ord("P")))
 	obj_player.state = PlayerState.Dead;
+	
+if (keyboard_check_pressed(ord("K")))
+	obj_player.state = PlayerState.Assassin;
+	
+if (keyboard_check_pressed(ord("L")))
+	obj_player.state = PlayerState.ShockWave;
