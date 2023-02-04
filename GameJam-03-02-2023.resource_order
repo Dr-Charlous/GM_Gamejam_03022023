@@ -5,8 +5,8 @@
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
-    {"name":"Control","order":2,"path":"folders/Objects/Control.yy",},
-    {"name":"Player","order":1,"path":"folders/Objects/Player.yy",},
+    {"name":"Control","order":7,"path":"folders/Objects/Control.yy",},
+    {"name":"Player","order":6,"path":"folders/Objects/Player.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
@@ -35,7 +35,7 @@
     {"name":"outside_bounds","order":5,"path":"scripts/outside_bounds/outside_bounds.yy",},
     {"name":"S_Mid_Demonic_Plant_001","order":13,"path":"sprites/S_Mid_Demonic_Plant_001/S_Mid_Demonic_Plant_001.yy",},
     {"name":"spr_shroom_updown","order":3,"path":"sprites/spr_shroom_updown/spr_shroom_updown.yy",},
-    {"name":"obj_wall","order":3,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"obj_wall","order":8,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"state_player_shockwave","order":4,"path":"scripts/state_player_shockwave/state_player_shockwave.yy",},
     {"name":"obj_bullet_explosion","order":3,"path":"objects/obj_bullet_explosion/obj_bullet_explosion.yy",},
     {"name":"S_Small_Demonic_Plan_016","order":39,"path":"sprites/S_Small_Demonic_Plan_016/S_Small_Demonic_Plan_016.yy",},
@@ -76,6 +76,7 @@
     {"name":"S_Mid_Demonic_Stone_004","order":21,"path":"sprites/S_Mid_Demonic_Stone_004/S_Mid_Demonic_Stone_004.yy",},
     {"name":"S_Small_Demonic_Plan_012","order":35,"path":"sprites/S_Small_Demonic_Plan_012/S_Small_Demonic_Plan_012.yy",},
     {"name":"S_Small_Demonic_Stone_003","order":43,"path":"sprites/S_Small_Demonic_Stone_003/S_Small_Demonic_Stone_003.yy",},
+    {"name":"obj_wall_switch","order":3,"path":"objects/obj_wall_switch/obj_wall_switch.yy",},
     {"name":"macros","order":6,"path":"scripts/macros/macros.yy",},
     {"name":"state_player_walk","order":1,"path":"scripts/state_player_walk/state_player_walk.yy",},
     {"name":"state_player_shoot","order":5,"path":"scripts/state_player_shoot/state_player_shoot.yy",},
@@ -113,6 +114,10 @@
     {"name":"spr_shroom_side","order":4,"path":"sprites/spr_shroom_side/spr_shroom_side.yy",},
     {"name":"screen_shake","order":3,"path":"scripts/screen_shake/screen_shake.yy",},
     {"name":"S_Small_Demonic_Plan_009","order":32,"path":"sprites/S_Small_Demonic_Plan_009/S_Small_Demonic_Plan_009.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"obj_dead","order":9,"path":"objects/obj_dead/obj_dead.yy",},
+>>>>>>> parent of 49f9ad9 (jsp)
     {"name":"S_Small_Demonic_Stone_006","order":46,"path":"sprites/S_Small_Demonic_Stone_006/S_Small_Demonic_Stone_006.yy",},
     {"name":"S_Big_Demonic_Tree_003","order":8,"path":"sprites/S_Big_Demonic_Tree_003/S_Big_Demonic_Tree_003.yy",},
     {"name":"dying_timer","order":7,"path":"scripts/dying_timer/dying_timer.yy",},

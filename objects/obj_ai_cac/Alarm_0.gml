@@ -1,0 +1,2 @@
+/// @description Invincible
+invincible = false;

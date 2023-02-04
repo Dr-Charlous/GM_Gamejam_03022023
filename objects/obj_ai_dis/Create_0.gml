@@ -1,9 +1,9 @@
 // Player Variables
-spd = 1;
+spd = 0.5;
 hspd = x;
 vspd = y;
 facing = 1;
-range_view = 175;
+range_view = 100;
 range_attack = 50;
 alarm_set(0,120);
 
