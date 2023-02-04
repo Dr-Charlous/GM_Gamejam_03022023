@@ -108,14 +108,23 @@
     {"name":"S_Mid_Demonic_Stone_001","order":18,"path":"sprites/S_Mid_Demonic_Stone_001/S_Mid_Demonic_Stone_001.yy",},
     {"name":"spr_bullet_explosion","order":8,"path":"sprites/spr_bullet_explosion/spr_bullet_explosion.yy",},
     {"name":"obj_transition","order":2,"path":"objects/obj_transition/obj_transition.yy",},
+<<<<<<< HEAD
     {"name":"S_Small_Demonic_Stone_005","order":45,"path":"sprites/S_Small_Demonic_Stone_005/S_Small_Demonic_Stone_005.yy",},
     {"name":"S_TileSet_005","order":6,"path":"sprites/S_TileSet_005/S_TileSet_005.yy",},
+=======
+    {"name":"spr_2eyes_front_walk","order":1,"path":"sprites/spr_2eyes_front_walk/spr_2eyes_front_walk.yy",},
+>>>>>>> parent of 4f41793 (Menu Credits :crocodile:)
     {"name":"spr_shroom_side","order":4,"path":"sprites/spr_shroom_side/spr_shroom_side.yy",},
     {"name":"screen_shake","order":3,"path":"scripts/screen_shake/screen_shake.yy",},
     {"name":"S_Small_Demonic_Plan_009","order":32,"path":"sprites/S_Small_Demonic_Plan_009/S_Small_Demonic_Plan_009.yy",},
     {"name":"S_Small_Demonic_Stone_006","order":46,"path":"sprites/S_Small_Demonic_Stone_006/S_Small_Demonic_Stone_006.yy",},
     {"name":"S_Big_Demonic_Tree_003","order":8,"path":"sprites/S_Big_Demonic_Tree_003/S_Big_Demonic_Tree_003.yy",},
     {"name":"dying_timer","order":7,"path":"scripts/dying_timer/dying_timer.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"obj_ai_test","order":10,"path":"objects/obj_ai_test/obj_ai_test.yy",},
+    {"name":"obj_quit_button","order":1,"path":"objects/obj_quit_button/obj_quit_button.yy",},
+>>>>>>> parent of 4f41793 (Menu Credits :crocodile:)
     {"name":"bullet_die","order":7,"path":"scripts/bullet_die/bullet_die.yy",},
     {"name":"S_TileSet_008","order":2,"path":"sprites/S_TileSet_008/S_TileSet_008.yy",},
   ],
