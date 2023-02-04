@@ -1,2 +1,2 @@
 /// @description Wall Collision
-collision(obj_wall);
+collision(obj_wall_switch);
