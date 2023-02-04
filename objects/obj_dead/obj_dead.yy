@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Ai",
-    "path": "folders/Objects/Ai.yy",
+    "name": "GameJam-03-02-2023",
+    "path": "GameJam-03-02-2023.yyp",
   },
   "parentObjectId": null,
   "persistent": false,
