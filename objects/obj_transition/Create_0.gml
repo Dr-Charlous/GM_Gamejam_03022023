@@ -14,5 +14,6 @@ enum TRANS_MODE
 }
 mode = TRANS_MODE.INTRO;
 intro = true;
+quit = false;
 percent = 1.2;
 target = room;
