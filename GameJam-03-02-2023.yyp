@@ -38,6 +38,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu","folderPath":"folders/Sprites/Menu.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ai","folderPath":"folders/Objects/Ai.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Level","folderPath":"folders/Sprites/Level.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Corrupted_by_Player","folderPath":"folders/Sprites/Enemies/Corrupted_by_Player.yy","order":0,},
   ],
   "IncludedFiles": [],
   "isEcma": false,

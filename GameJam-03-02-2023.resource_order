@@ -26,6 +26,7 @@
     {"name":"Menu","order":10,"path":"folders/Sprites/Menu.yy",},
     {"name":"Ai","order":12,"path":"folders/Objects/Ai.yy",},
     {"name":"Level","order":11,"path":"folders/Sprites/Level.yy",},
+    {"name":"Corrupted_by_Player","order":9,"path":"folders/Sprites/Enemies/Corrupted_by_Player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"player_animation","order":6,"path":"scripts/player_animation/player_animation.yy",},
