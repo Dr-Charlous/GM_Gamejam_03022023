@@ -13,6 +13,7 @@ if obj_game.can_interact {
 		scale_x = 1.2;
 		if (mouse_check_button(mb_left)) {
 			// FADE
+			audio_sound_gain(snd_main_menu,0,800);
 			var my_transition = instance_create_depth(x,y,depth,obj_transition);
 			my_transition.quit = true;
 			my_transition.intro = false;
