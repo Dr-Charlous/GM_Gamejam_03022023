@@ -55,6 +55,7 @@
     {"name":"state_player_assassin","order":3,"path":"scripts/state_player_assassin/state_player_assassin.yy",},
     {"name":"knockback","order":8,"path":"scripts/knockback/knockback.yy",},
     {"name":"spr_player_walk","order":2,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
+    {"name":"obj_ai_cac","order":11,"path":"objects/obj_ai_cac/obj_ai_cac.yy",},
     {"name":"spr_3eyes_front_walk","order":5,"path":"sprites/spr_3eyes_front_walk/spr_3eyes_front_walk.yy",},
     {"name":"spr_wall","order":5,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"get_gamepad_id","order":2,"path":"scripts/get_gamepad_id/get_gamepad_id.yy",},
@@ -66,7 +67,7 @@
     {"name":"screen_shake","order":3,"path":"scripts/screen_shake/screen_shake.yy",},
     {"name":"obj_dead","order":9,"path":"objects/obj_dead/obj_dead.yy",},
     {"name":"dying_timer","order":7,"path":"scripts/dying_timer/dying_timer.yy",},
-    {"name":"obj_ai_test","order":10,"path":"objects/obj_ai_test/obj_ai_test.yy",},
+    {"name":"obj_ai","order":10,"path":"objects/obj_ai/obj_ai.yy",},
     {"name":"bullet_die","order":7,"path":"scripts/bullet_die/bullet_die.yy",},
   ],
 }
