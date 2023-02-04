@@ -16,4 +16,3 @@ mode = TRANS_MODE.INTRO;
 intro = true;
 percent = 1.2;
 target = room;
-target_room = noone;
