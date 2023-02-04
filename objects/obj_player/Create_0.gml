@@ -18,7 +18,7 @@ mouse_distance = 30;
 actionkey = false;
 can_dash = true;
 is_dashing = false;
-dash_spd = 12;
+dash_spd = 8;
 dash_distance = 11;
 
 // Shockwave
