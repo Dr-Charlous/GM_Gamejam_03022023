@@ -77,6 +77,7 @@
     {"id":{"name":"init_player_state","path":"scripts/init_player_state/init_player_state.yy",},"order":0,},
     {"id":{"name":"obj_ai_cac","path":"objects/obj_ai_cac/obj_ai_cac.yy",},"order":0,},
     {"id":{"name":"spr_shockwave","path":"sprites/spr_shockwave/spr_shockwave.yy",},"order":0,},
+    {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":0,},
     {"id":{"name":"S_Mid_Demonic_Plant_005","path":"sprites/S_Mid_Demonic_Plant_005/S_Mid_Demonic_Plant_005.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Plan_006","path":"sprites/S_Small_Demonic_Plan_006/S_Small_Demonic_Plan_006.yy",},"order":0,},
     {"id":{"name":"shoot","path":"scripts/shoot/shoot.yy",},"order":0,},

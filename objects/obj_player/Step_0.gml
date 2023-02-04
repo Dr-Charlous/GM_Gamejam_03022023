@@ -1,2 +1,3 @@
 // Excute State
-script_execute(state_array[state]);
+if (can_move)
+	script_execute(state_array[state]);
