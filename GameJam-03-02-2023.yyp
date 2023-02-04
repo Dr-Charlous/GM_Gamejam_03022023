@@ -59,6 +59,8 @@
     {"id":{"name":"spr_shockwave","path":"sprites/spr_shockwave/spr_shockwave.yy",},"order":0,},
     {"id":{"name":"shoot","path":"scripts/shoot/shoot.yy",},"order":0,},
     {"id":{"name":"obj_shockwave","path":"objects/obj_shockwave/obj_shockwave.yy",},"order":0,},
+    {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"order":0,},
+    {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},"order":0,},
     {"id":{"name":"state_ai_walk","path":"scripts/state_ai_walk/state_ai_walk.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":0,},

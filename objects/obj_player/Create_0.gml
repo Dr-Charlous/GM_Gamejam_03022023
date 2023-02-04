@@ -5,9 +5,13 @@ hspd = 0;
 vspd = 0;
 facing = 1;
 vertical_facing = 1;
-gamepad_id = 0;
+gamepad_id = noone;
 timer = 0;
 death_time = 7; // in seconds
+
+// Mouse
+my_mouse = instance_create_depth(x,y,-700,obj_mouse);
+mouse_distance = 30;
 
 // Dash
 actionkey = false;
@@ -23,6 +27,7 @@ shockwave_time = 40;
 shockwave_spd = 2.5; // speed of the character in shockwave state
 
 // Shoot
+dir = 0;
 can_shoot = true;
 is_shooting = false;
 shoot_time = 26;

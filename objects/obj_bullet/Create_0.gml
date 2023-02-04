@@ -1,5 +1,5 @@
 // Variables
 spd = 10;
-direction = 0;
+direction = obj_player.dir;
 image_angle = direction;
 distance = 160;
