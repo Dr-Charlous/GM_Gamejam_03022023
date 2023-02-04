@@ -30,6 +30,7 @@ if health_points <= 0 {
 	var my_corpse = instance_create_layer(x,y,"Instances",obj_dead);
 	with(my_corpse) {
 		sprite_index = spr_player_dead;
+		state = 2;
 		alarm[0] = 180;
 	}
 	instance_destroy();

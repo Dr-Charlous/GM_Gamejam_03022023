@@ -7,7 +7,7 @@ facing = 1;
 vertical_facing = 1;
 gamepad_id = noone;
 timer = 0;
-death_time = 7; // in seconds
+death_time = 20; // in seconds
 
 // Mouse
 my_mouse = instance_create_depth(x,y,-700,obj_mouse);
