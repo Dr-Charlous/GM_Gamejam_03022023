@@ -10,6 +10,9 @@ function state_player_idle(){
 	// Outside bounds
 	outside_bounds();
 	
+	// Time Death
+	dying_timer();
+	
 	// Animation
 	player_animation();
 }

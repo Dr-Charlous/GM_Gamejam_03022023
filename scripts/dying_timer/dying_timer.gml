@@ -1,3 +1,7 @@
 function dying_timer(){
-	timer += game_get_speed;
+	timer += 1;
+	
+	if timer > death_time {
+		state = PlayerState.Dead;	
+	}
 }
