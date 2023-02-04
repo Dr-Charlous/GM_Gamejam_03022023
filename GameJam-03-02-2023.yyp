@@ -50,6 +50,7 @@
     {"id":{"name":"state_ai_idle","path":"scripts/state_ai_idle/state_ai_idle.yy",},"order":0,},
     {"id":{"name":"state_player_shockwave","path":"scripts/state_player_shockwave/state_player_shockwave.yy",},"order":0,},
     {"id":{"name":"obj_bullet_explosion","path":"objects/obj_bullet_explosion/obj_bullet_explosion.yy",},"order":0,},
+    {"id":{"name":"spr_current_enemy","path":"sprites/spr_current_enemy/spr_current_enemy.yy",},"order":0,},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":0,},
     {"id":{"name":"init_ai_state","path":"scripts/init_ai_state/init_ai_state.yy",},"order":0,},
     {"id":{"name":"obj_ai","path":"objects/obj_ai/obj_ai.yy",},"order":0,},

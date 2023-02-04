@@ -31,6 +31,7 @@
     {"name":"state_ai_idle","order":1,"path":"scripts/state_ai_idle/state_ai_idle.yy",},
     {"name":"state_player_shockwave","order":4,"path":"scripts/state_player_shockwave/state_player_shockwave.yy",},
     {"name":"obj_bullet_explosion","order":3,"path":"objects/obj_bullet_explosion/obj_bullet_explosion.yy",},
+    {"name":"spr_current_enemy","order":10,"path":"sprites/spr_current_enemy/spr_current_enemy.yy",},
     {"name":"collision","order":4,"path":"scripts/collision/collision.yy",},
     {"name":"init_ai_state","order":2,"path":"scripts/init_ai_state/init_ai_state.yy",},
     {"name":"obj_ai","order":4,"path":"objects/obj_ai/obj_ai.yy",},
