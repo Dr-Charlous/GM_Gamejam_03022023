@@ -9,8 +9,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
+<<<<<<< HEAD
     "name": "GameJam-03-02-2023",
     "path": "GameJam-03-02-2023.yyp",
+=======
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+>>>>>>> parent of d229942 (Mouvements Ai V1)
   },
   "parentObjectId": null,
   "persistent": false,
