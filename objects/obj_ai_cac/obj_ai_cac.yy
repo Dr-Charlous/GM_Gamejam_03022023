@@ -34,12 +34,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+    "name": "spr_2eyes_side_walk",
+    "path": "sprites/spr_2eyes_side_walk/spr_2eyes_side_walk.yy",
   },
   "spriteMaskId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+    "name": "spr_2eyes_side_walk",
+    "path": "sprites/spr_2eyes_side_walk/spr_2eyes_side_walk.yy",
   },
   "visible": true,
 }

@@ -15,6 +15,7 @@ function init_player_input() {
 			last_button_pressed = 1;
 	} else {
 		actionkey = mouse_check_button(mb_left);
+		possesskey = keyboard_check_pressed(vk_space);
 	}
 	// Keyboard Support
 	var rkey = keyboard_check(vk_right) or keyboard_check(ord("D")); // WASD

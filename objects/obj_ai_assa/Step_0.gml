@@ -42,10 +42,10 @@ if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and
 	
 // If Dead
 if health_points <= 0 {
-	sprite_index = spr_player_dead;
+	sprite_index = spr_1eyed_death;
 	var my_corpse = instance_create_layer(x,y,"Instances",obj_dead);
 	with(my_corpse) {
-		sprite_index = spr_player_dead;
+		sprite_index = spr_1eyed_death;
 		state = 2;
 		alarm[0] = 180;
 	}
@@ -55,11 +55,22 @@ if health_points <= 0 {
 		// Face right direction
 		if hspd != 0
 			facing = sign(hspd);
-		// Walk Animation
-		sprite_index = spr_player_walk;
+		if (hspd >= vspd) {
+			// Walk Animation
+			sprite_index = spr_1eyed_side_walk;
+			if sign(hspd) > 0
+				facing = -1;
+			else
+				facing = 1;
+		} else {
+			if sign(vspd) > 0
+				sprite_index = spr_1eyed_front_walk;
+			else
+				sprite_index = spr_1eyed_back_walk;
+		}
 	} else {
 		// Idle Animation
-		sprite_index = spr_player_idle;
+		sprite_index = spr_1eyed_back_walk;
 	}
 }
 
