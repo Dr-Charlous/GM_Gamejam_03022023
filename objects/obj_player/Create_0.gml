@@ -33,7 +33,6 @@ assassin_spd = 3; // speed of the character in assassin state
 
 // States
 enum PlayerState {
-	Idle,
 	Walk,
 	Dead,
 	Assassin,
@@ -41,10 +40,9 @@ enum PlayerState {
 	Shoot
 }
 
-state = PlayerState.Idle;
+state = PlayerState.Walk;
 last_state = PlayerState.Walk;
 
-state_array[PlayerState.Idle] = state_player_idle;
 state_array[PlayerState.Walk] = state_player_walk;
 state_array[PlayerState.Dead] = state_player_dead;
 state_array[PlayerState.Assassin] = state_player_assassin;

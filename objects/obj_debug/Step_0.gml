@@ -6,8 +6,8 @@ if (keyboard_check_pressed(ord("R")))
 if (keyboard_check_pressed(ord("O")))
 	obj_player.state = PlayerState.Walk;
 	
-if (keyboard_check_pressed(ord("I")))
-	obj_player.state = PlayerState.Idle;
+//if (keyboard_check_pressed(ord("I")))
+//	obj_player.state = PlayerState.Idle;
 	
 if (keyboard_check_pressed(ord("P")))
 	obj_player.state = PlayerState.Dead;
