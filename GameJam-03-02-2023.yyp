@@ -80,6 +80,7 @@
     {"id":{"name":"S_Big_Demonic_Stone_002","path":"sprites/S_Big_Demonic_Stone_002/S_Big_Demonic_Stone_002.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Stone_004","path":"sprites/S_Small_Demonic_Stone_004/S_Small_Demonic_Stone_004.yy",},"order":0,},
     {"id":{"name":"S_TileSet_003","path":"sprites/S_TileSet_003/S_TileSet_003.yy",},"order":0,},
+    {"id":{"name":"spr_1eyed_death","path":"sprites/spr_1eyed_death/spr_1eyed_death.yy",},"order":0,},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":0,},
     {"id":{"name":"init_player_state","path":"scripts/init_player_state/init_player_state.yy",},"order":0,},
     {"id":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},"order":0,},
