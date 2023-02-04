@@ -12,11 +12,9 @@ function player_animation(){
 				facing = sign(hspd);
 			// Walk Animation
 			sprite_index = spr_player_walk;
-			state = PlayerState.Walk; 
 		} else {
 			// Idle Animation
 			sprite_index = spr_player_idle;
-			state = PlayerState.Idle;
 		}
 	}
 }

@@ -1,0 +1,1 @@
+draw_text(60,20, obj_player.state);

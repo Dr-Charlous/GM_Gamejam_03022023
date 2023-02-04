@@ -38,6 +38,7 @@
   },
   "resources": [
     {"id":{"name":"player_animation","path":"scripts/player_animation/player_animation.yy",},"order":0,},
+    {"id":{"name":"player_state_update","path":"scripts/player_state_update/player_state_update.yy",},"order":0,},
     {"id":{"name":"state_player_idle","path":"scripts/state_player_idle/state_player_idle.yy",},"order":0,},
     {"id":{"name":"spr_player_dead","path":"sprites/spr_player_dead/spr_player_dead.yy",},"order":0,},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},"order":0,},
@@ -58,6 +59,7 @@
     {"id":{"name":"dash","path":"scripts/dash/dash.yy",},"order":0,},
     {"id":{"name":"state_player_dead","path":"scripts/state_player_dead/state_player_dead.yy",},"order":0,},
     {"id":{"name":"move_player","path":"scripts/move_player/move_player.yy",},"order":0,},
+    {"id":{"name":"state_player_assassin","path":"scripts/state_player_assassin/state_player_assassin.yy",},"order":0,},
     {"id":{"name":"state_ai_dead","path":"scripts/state_ai_dead/state_ai_dead.yy",},"order":0,},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":0,},
     {"id":{"name":"ai_animation","path":"scripts/ai_animation/ai_animation.yy",},"order":0,},

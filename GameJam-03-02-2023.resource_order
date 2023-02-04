@@ -21,6 +21,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"player_animation","order":6,"path":"scripts/player_animation/player_animation.yy",},
+    {"name":"player_state_update","order":9,"path":"scripts/player_state_update/player_state_update.yy",},
     {"name":"obj_debug","order":2,"path":"objects/obj_debug/obj_debug.yy",},
     {"name":"outside_bounds","order":5,"path":"scripts/outside_bounds/outside_bounds.yy",},
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
@@ -39,6 +40,7 @@
     {"name":"dash","order":8,"path":"scripts/dash/dash.yy",},
     {"name":"state_player_dead","order":2,"path":"scripts/state_player_dead/state_player_dead.yy",},
     {"name":"move_player","order":3,"path":"scripts/move_player/move_player.yy",},
+    {"name":"state_player_assassin","order":3,"path":"scripts/state_player_assassin/state_player_assassin.yy",},
     {"name":"spr_player_walk","order":2,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
     {"name":"ai_animation","order":5,"path":"scripts/ai_animation/ai_animation.yy",},
     {"name":"spr_wall","order":5,"path":"sprites/spr_wall/spr_wall.yy",},

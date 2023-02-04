@@ -16,15 +16,21 @@ is_dashing = false;
 dash_spd = 12;
 dash_distance = 11;
 
+// Assassin
+assassin_spd = 3;
+
 // States
 enum PlayerState {
 	Idle,
 	Walk,
-	Dead
+	Dead,
+	Assassin
 }
 
 state = PlayerState.Idle;
+last_state = PlayerState.Walk;
 
 state_array[PlayerState.Idle] = state_player_idle;
 state_array[PlayerState.Walk] = state_player_walk;
 state_array[PlayerState.Dead] = state_player_dead;
+state_array[PlayerState.Assassin] = state_player_assassin;

@@ -1,5 +1,5 @@
-function state_player_idle(){
-	// Idle State
+function state_player_assassin(){
+	// Walk State
 	// Update the state
 	player_state_update();
 	
@@ -8,6 +8,9 @@ function state_player_idle(){
 	
 	// Move the player
 	move_player();
+	
+	// Dash
+	dash();
 	
 	// Outside bounds
 	outside_bounds();
