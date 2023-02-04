@@ -1,4 +1,4 @@
-if (mouse_check_button(mb_left)) {
+if actionkey {
 	state = other.state;
 	instance_destroy(other);
 }

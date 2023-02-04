@@ -32,8 +32,16 @@ function init_player_input() {
 	if gamepad_is_connected(gamepad_id) {
 		my_mouse.x = x + gamepad_axis_value(gamepad_id, gp_axisrh) * mouse_distance;
 		my_mouse.y = y + gamepad_axis_value(gamepad_id, gp_axisrv) * mouse_distance;
+		// Show my mouse
+		if abs(gamepad_axis_value(gamepad_id, gp_axisrh)) < 0.1 && abs(gamepad_axis_value(gamepad_id, gp_axisrv)) < 0.1 {
+			my_mouse.image_alpha = 0;
+		} else {
+			my_mouse.image_alpha = 1;	
+		}
 	} else {
 		my_mouse.x = mouse_x;
 		my_mouse.y = mouse_y;
 	}
+	
+	
 }
