@@ -2,7 +2,7 @@
 
 
 // Make sure the depth is lower than the player's
-//depth = obj_player.depth - 1;
+depth = obj_player.depth - 1;
 
 if (mode != TRANS_MODE.OFF)
 {
@@ -21,12 +21,10 @@ if (mode != TRANS_MODE.OFF)
 		{
 			case TRANS_MODE.INTRO:
 			{
-				if (quit)
-					game_end();
-				else if (intro)
+				if (intro)
 					instance_destroy();
 				else
-					room_goto(target);
+					room_restart();
 				mode = TRANS_MODE.OFF;
 				break;
 			}
