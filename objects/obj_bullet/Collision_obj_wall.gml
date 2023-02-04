@@ -1,1 +1,1 @@
-bullet_die()
+//bullet_die()

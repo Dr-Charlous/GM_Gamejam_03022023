@@ -7,7 +7,7 @@ facing = 1;
 vertical_facing = 1;
 gamepad_id = 0;
 timer = 0;
-death_time = 420; // in frames (1 seconde = 60 frames)
+death_time = 7; // in seconds
 
 // Dash
 actionkey = false;
