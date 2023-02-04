@@ -5,7 +5,4 @@ function macros(){
 	
 	// AI
 	#macro INVINCIBILITY		0
-	
-	// Menu
-	#macro FADE_MENU			0
 }
