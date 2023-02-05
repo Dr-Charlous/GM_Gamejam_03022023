@@ -117,6 +117,7 @@
     {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Stone_006","path":"sprites/S_Big_Demonic_Stone_006/S_Big_Demonic_Stone_006.yy",},"order":0,},
     {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},"order":0,},
+    {"id":{"name":"S_Sheet_Ice_Wall_002","path":"sprites/S_Sheet_Ice_Wall_002/S_Sheet_Ice_Wall_002.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Plan_014","path":"sprites/S_Small_Demonic_Plan_014/S_Small_Demonic_Plan_014.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Plan_015","path":"sprites/S_Small_Demonic_Plan_015/S_Small_Demonic_Plan_015.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Plan_001","path":"sprites/S_Small_Demonic_Plan_001/S_Small_Demonic_Plan_001.yy",},"order":0,},
