@@ -186,6 +186,8 @@
     {"name":"spr_credits_menu","order":5,"path":"sprites/spr_credits_menu/spr_credits_menu.yy",},
     {"name":"bullet_die","order":7,"path":"scripts/bullet_die/bullet_die.yy",},
     {"name":"S_TileSet_008","order":2,"path":"sprites/S_TileSet_008/S_TileSet_008.yy",},
+    {"name":"Sprite111112","order":12,"path":"sprites/Sprite111112/Sprite111112.yy",},
     {"name":"Level_3","order":7,"path":"rooms/Level_3/Level_3.yy",},
+    {"name":"Sprite111","order":11,"path":"sprites/Sprite111/Sprite111.yy",},
   ],
 }

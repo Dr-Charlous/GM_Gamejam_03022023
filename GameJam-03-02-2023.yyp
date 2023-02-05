@@ -215,7 +215,9 @@
     {"id":{"name":"spr_credits_menu","path":"sprites/spr_credits_menu/spr_credits_menu.yy",},"order":0,},
     {"id":{"name":"bullet_die","path":"scripts/bullet_die/bullet_die.yy",},"order":0,},
     {"id":{"name":"S_TileSet_008","path":"sprites/S_TileSet_008/S_TileSet_008.yy",},"order":0,},
+    {"id":{"name":"Sprite111112","path":"sprites/Sprite111112/Sprite111112.yy",},"order":0,},
     {"id":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},"order":0,},
+    {"id":{"name":"Sprite111","path":"sprites/Sprite111/Sprite111.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
