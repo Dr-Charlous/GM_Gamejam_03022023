@@ -35,8 +35,6 @@
     {"name":"inst_67149B37","path":"rooms/Level_2/Level_2.yy",},
     {"name":"inst_62520A75","path":"rooms/Level_2/Level_2.yy",},
     {"name":"inst_1662F27B","path":"rooms/Level_2/Level_2.yy",},
-    {"name":"inst_62520A75","path":"rooms/Level_2/Level_2.yy",},
-    {"name":"inst_1662F27B","path":"rooms/Level_2/Level_2.yy",},
   ],
   "isDnd": false,
   "layers": [
