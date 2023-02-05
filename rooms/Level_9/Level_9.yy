@@ -42,6 +42,10 @@
     {"name":"inst_59B72C9B","path":"rooms/Level_9/Level_9.yy",},
     {"name":"inst_42DF899C","path":"rooms/Level_9/Level_9.yy",},
     {"name":"inst_2FC0B6B1","path":"rooms/Level_9/Level_9.yy",},
+    {"name":"inst_4B15AFD6","path":"rooms/Level_9/Level_9.yy",},
+    {"name":"inst_59B72C9B","path":"rooms/Level_9/Level_9.yy",},
+    {"name":"inst_42DF899C","path":"rooms/Level_9/Level_9.yy",},
+    {"name":"inst_2FC0B6B1","path":"rooms/Level_9/Level_9.yy",},
   ],
   "isDnd": false,
   "layers": [
