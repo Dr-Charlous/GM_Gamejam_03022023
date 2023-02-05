@@ -1,5 +1,6 @@
 // Wind Menu
-if room == Menu || room == Credits {
+if room == Menu || room == Credits || room == Commands {
+	audio_sound_gain(snd_main_victory, 0, 800);
 	audio_sound_gain(snd_main_game, 0, 800);
 	audio_sound_gain(snd_main_menu, 1, 800);
 	if !audio_is_playing(snd_main_menu) {
@@ -7,7 +8,17 @@ if room == Menu || room == Credits {
 		audio_sound_gain(snd_main_menu, 1, 800);
 	}
 }
-else {
+else if room == Victory {
+	if audio_sound_get_gain(snd_main_victory) == 0
+		audio_sound_gain(snd_main_victory, 1, 800);
+	audio_sound_gain(snd_main_menu,0,800);
+	audio_sound_gain(snd_main_game, 0, 800);
+	if !audio_is_playing(snd_main_victory) {
+		audio_play_sound(snd_main_victory,100,false);
+		audio_sound_gain(snd_main_victory, 1, 800);
+	}
+} else {
+	audio_sound_gain(snd_main_victory, 0, 800);
 	if audio_sound_get_gain(snd_main_game) == 0
 		audio_sound_gain(snd_main_game, 1, 800);
 	audio_sound_gain(snd_main_menu,0,800);
