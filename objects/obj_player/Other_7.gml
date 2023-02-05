@@ -3,4 +3,5 @@ if state == PlayerState.Dead {
 	image_index = image_number - 1;
 	my_transition = instance_create_depth(x,y,depth,obj_transition);
 	my_transition.intro = false;
+	audio_play_sound(snd_game_over,1,false);
 }
