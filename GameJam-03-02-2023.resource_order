@@ -175,6 +175,7 @@
     {"name":"snd_distance_attack","order":4,"path":"sounds/snd_distance_attack/snd_distance_attack.yy",},
     {"name":"Level_1","order":4,"path":"rooms/Level_1/Level_1.yy",},
     {"name":"Room_test_art","order":5,"path":"rooms/Room_test_art/Room_test_art.yy",},
+    {"name":"snd_hit","order":10,"path":"sounds/snd_hit/snd_hit.yy",},
     {"name":"S_Mid_Demonic_Stone_002","order":19,"path":"sprites/S_Mid_Demonic_Stone_002/S_Mid_Demonic_Stone_002.yy",},
     {"name":"S_Big_Demonic_Tree_002","order":7,"path":"sprites/S_Big_Demonic_Tree_002/S_Big_Demonic_Tree_002.yy",},
     {"name":"S_Sheet_Demonic_Wall_002178187","order":89,"path":"sprites/S_Sheet_Demonic_Wall_002178187/S_Sheet_Demonic_Wall_002178187.yy",},

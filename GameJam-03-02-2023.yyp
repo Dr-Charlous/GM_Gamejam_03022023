@@ -201,6 +201,7 @@
     {"id":{"name":"snd_distance_attack","path":"sounds/snd_distance_attack/snd_distance_attack.yy",},"order":0,},
     {"id":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},"order":0,},
     {"id":{"name":"Room_test_art","path":"rooms/Room_test_art/Room_test_art.yy",},"order":0,},
+    {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"order":0,},
     {"id":{"name":"S_Mid_Demonic_Stone_002","path":"sprites/S_Mid_Demonic_Stone_002/S_Mid_Demonic_Stone_002.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Tree_002","path":"sprites/S_Big_Demonic_Tree_002/S_Big_Demonic_Tree_002.yy",},"order":0,},
     {"id":{"name":"S_Sheet_Demonic_Wall_002178187","path":"sprites/S_Sheet_Demonic_Wall_002178187/S_Sheet_Demonic_Wall_002178187.yy",},"order":0,},
