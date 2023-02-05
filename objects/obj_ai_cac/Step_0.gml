@@ -24,6 +24,7 @@ if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and
 		with(BulletIns) {
 			direction = point_direction(other.x, other.y, obj_player.x, obj_player.y);
 			tag = "enemy_cac";
+			audio_play_sound(snd_bullet,1,false);
 		}
 		alarm[1] = cooldown_shoot;
 		can_shoot = false;
@@ -38,6 +39,7 @@ if health_points <= 0 {
 		sprite_index = spr_2eyed_death;
 		state = 3;
 		alarm[0] = 180;
+		audio_play_sound(snd_death,1,false);
 	}
 	instance_destroy();
 } else {
