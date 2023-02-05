@@ -308,6 +308,7 @@
     {"id":{"name":"snd_attack_cac","path":"sounds/snd_attack_cac/snd_attack_cac.yy",},"order":0,},
     {"id":{"name":"S_Small_Icy_Plant_001","path":"sprites/S_Small_Icy_Plant_001/S_Small_Icy_Plant_001.yy",},"order":0,},
     {"id":{"name":"obj_dead","path":"objects/obj_dead/obj_dead.yy",},"order":0,},
+    {"id":{"name":"snd_main_victory","path":"sounds/snd_main_victory/snd_main_victory.yy",},"order":0,},
     {"id":{"name":"S_Mid_Icy_Tree_004","path":"sprites/S_Mid_Icy_Tree_004/S_Mid_Icy_Tree_004.yy",},"order":0,},
     {"id":{"name":"spr_3eyed_front_idle","path":"sprites/spr_3eyed_front_idle/spr_3eyed_front_idle.yy",},"order":0,},
     {"id":{"name":"S_Small_Icy_Stone_006","path":"sprites/S_Small_Icy_Stone_006/S_Small_Icy_Stone_006.yy",},"order":0,},

@@ -276,6 +276,7 @@
     {"name":"spr_3eyed_corrupt_side","order":4,"path":"sprites/spr_3eyed_corrupt_side/spr_3eyed_corrupt_side.yy",},
     {"name":"snd_attack_cac","order":2,"path":"sounds/snd_attack_cac/snd_attack_cac.yy",},
     {"name":"S_Small_Icy_Plant_001","order":66,"path":"sprites/S_Small_Icy_Plant_001/S_Small_Icy_Plant_001.yy",},
+    {"name":"snd_main_victory","order":13,"path":"sounds/snd_main_victory/snd_main_victory.yy",},
     {"name":"S_Mid_Icy_Tree_004","order":86,"path":"sprites/S_Mid_Icy_Tree_004/S_Mid_Icy_Tree_004.yy",},
     {"name":"spr_3eyed_front_idle","order":9,"path":"sprites/spr_3eyed_front_idle/spr_3eyed_front_idle.yy",},
     {"name":"S_Small_Icy_Stone_006","order":85,"path":"sprites/S_Small_Icy_Stone_006/S_Small_Icy_Stone_006.yy",},
