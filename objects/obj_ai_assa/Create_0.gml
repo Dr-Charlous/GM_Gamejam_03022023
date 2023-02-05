@@ -6,9 +6,7 @@ facing = 1;
 range_view = 100;
 range_attack = 50;
 alarm_set(0,120);
-charging = false;
-x_target_dash = x;
-y_target_dash = y;
+can_shoot = false;
 
 // HP
 health_points = 3;

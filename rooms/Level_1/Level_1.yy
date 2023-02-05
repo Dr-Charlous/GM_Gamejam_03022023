@@ -36,9 +36,6 @@
     {"name":"inst_505CE495","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_B158C6D","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_C07CD","path":"rooms/Level_1/Level_1.yy",},
-    {"name":"inst_54B2F2CF","path":"rooms/Level_1/Level_1.yy",},
-    {"name":"inst_23C2B8C6","path":"rooms/Level_1/Level_1.yy",},
-    {"name":"inst_23C2B8C6","path":"rooms/Level_1/Level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
