@@ -210,6 +210,7 @@
     {"id":{"name":"spr_Level_2","path":"sprites/spr_Level_2/spr_Level_2.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Stone_006","path":"sprites/S_Small_Demonic_Stone_006/S_Small_Demonic_Stone_006.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Tree_003","path":"sprites/S_Big_Demonic_Tree_003/S_Big_Demonic_Tree_003.yy",},"order":0,},
+    {"id":{"name":"spr_background_menu","path":"sprites/spr_background_menu/spr_background_menu.yy",},"order":0,},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},"order":0,},
     {"id":{"name":"dying_timer","path":"scripts/dying_timer/dying_timer.yy",},"order":0,},
     {"id":{"name":"spr_credits","path":"sprites/spr_credits/spr_credits.yy",},"order":0,},
