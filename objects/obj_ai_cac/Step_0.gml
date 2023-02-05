@@ -21,6 +21,17 @@ if (collision_circle(x,y,range_view,obj_player,false,false) and !collision_circl
 		path_start(path, spd, 0, 0);
 	}
 }
+if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall_switch ,false ,false) {
+	if (collision_circle(x,y,range_attack,obj_player,false,false) and can_shoot) {
+		var BulletIns = instance_create_layer(x,y,"Instances",obj_bullet_cac);
+		with(BulletIns) {
+			direction = point_direction(other.x, other.y, obj_player.x, obj_player.y);
+			tag = "enemy_cac";
+		}
+		alarm[1] = cooldown_shoot;
+		can_shoot = false;
+	}
+}
 	
 // If Dead
 if health_points <= 0 {

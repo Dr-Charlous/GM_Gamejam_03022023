@@ -6,6 +6,8 @@ facing = 1;
 range_view = 150;
 range_attack = 30;
 alarm_set(0,120);
+can_shoot = true;
+cooldown_shoot = 50;
 
 // HP
 health_points = 3;
