@@ -4,6 +4,7 @@ function shoot(){
 		is_shooting = true;
 		can_shoot = false;
 		instance_create_depth(x,y,depth,obj_bullet);
+		audio_play_sound(snd_bullet,1,false);
 		alarm[CAN_ACTION] = shoot_time;
 	} else {
 		is_shooting = false;	

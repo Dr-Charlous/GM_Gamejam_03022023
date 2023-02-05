@@ -3,4 +3,5 @@ if possesskey {
 	state = other.state;
 	instance_destroy(other);
 	timer = 0;
+	audio_play_sound(snd_after_death,1,false);
 }
