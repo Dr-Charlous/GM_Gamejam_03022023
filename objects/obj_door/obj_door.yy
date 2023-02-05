@@ -30,5 +30,5 @@
     "path": "sprites/spr_red/spr_red.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
