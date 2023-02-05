@@ -148,6 +148,7 @@
     {"id":{"name":"S_Sheet_Ice_Wall_002178","path":"sprites/S_Sheet_Ice_Wall_002178/S_Sheet_Ice_Wall_002178.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Plan_017","path":"sprites/S_Small_Demonic_Plan_017/S_Small_Demonic_Plan_017.yy",},"order":0,},
     {"id":{"name":"S_TileSet_002","path":"sprites/S_TileSet_002/S_TileSet_002.yy",},"order":0,},
+    {"id":{"name":"spr_death_player","path":"sprites/spr_death_player/spr_death_player.yy",},"order":0,},
     {"id":{"name":"spr_3eyed_corrupt_back","path":"sprites/spr_3eyed_corrupt_back/spr_3eyed_corrupt_back.yy",},"order":0,},
     {"id":{"name":"S_Small_Icy_Stone_003","path":"sprites/S_Small_Icy_Stone_003/S_Small_Icy_Stone_003.yy",},"order":0,},
     {"id":{"name":"spr_level_7","path":"sprites/spr_level_7/spr_level_7.yy",},"order":0,},
