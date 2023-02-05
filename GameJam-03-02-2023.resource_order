@@ -189,6 +189,7 @@
     {"name":"S_Small_Icy_Plant_016","order":63,"path":"sprites/S_Small_Icy_Plant_016/S_Small_Icy_Plant_016.yy",},
     {"name":"obj_bullet_cac","order":5,"path":"objects/obj_bullet_cac/obj_bullet_cac.yy",},
     {"name":"S_Small_Demonic_Plan_003","order":26,"path":"sprites/S_Small_Demonic_Plan_003/S_Small_Demonic_Plan_003.yy",},
+    {"name":"commands","order":9,"path":"sprites/commands/commands.yy",},
     {"name":"S_Big_Icy_Tree_001","order":54,"path":"sprites/S_Big_Icy_Tree_001/S_Big_Icy_Tree_001.yy",},
     {"name":"S_Small_Icy_Plant_007","order":74,"path":"sprites/S_Small_Icy_Plant_007/S_Small_Icy_Plant_007.yy",},
     {"name":"S_Mid_Demonic_Stone_006","order":23,"path":"sprites/S_Mid_Demonic_Stone_006/S_Mid_Demonic_Stone_006.yy",},
