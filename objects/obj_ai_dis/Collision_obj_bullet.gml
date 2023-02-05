@@ -6,5 +6,8 @@ if (!invincible) {
 	screen_shake(0.3,3);
 	facing = 0.6;
 	if health_points > 0
-		health_points--;
+		health_points--;{
+		audio_play_sound(snd_hit,1,false);
+	}
+		
 }
