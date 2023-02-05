@@ -9,3 +9,7 @@ if (instance_exists(obj_player) == false) {
 //	y = y_pos[current_y];
 //	current_y = (current_y + 1) % 3;
 //}
+
+if mouse_check_button_pressed(mb_left) {
+	image_speed = 1;
+}
