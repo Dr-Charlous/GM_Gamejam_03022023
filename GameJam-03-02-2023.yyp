@@ -229,6 +229,7 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":0,},
     {"id":{"name":"S_Mid_Demonic_Plant_003","path":"sprites/S_Mid_Demonic_Plant_003/S_Mid_Demonic_Plant_003.yy",},"order":0,},
     {"id":{"name":"S_Big_Demonic_Stone_004","path":"sprites/S_Big_Demonic_Stone_004/S_Big_Demonic_Stone_004.yy",},"order":0,},
+    {"id":{"name":"obj_bullet_assa","path":"objects/obj_bullet_assa/obj_bullet_assa.yy",},"order":0,},
     {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},"order":0,},
     {"id":{"name":"S_Small_Icy_Plant_013","path":"sprites/S_Small_Icy_Plant_013/S_Small_Icy_Plant_013.yy",},"order":0,},
     {"id":{"name":"S_Big_Icy_Tree_004","path":"sprites/S_Big_Icy_Tree_004/S_Big_Icy_Tree_004.yy",},"order":0,},

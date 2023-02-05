@@ -8,18 +8,23 @@ randomize();
 var path = path_add();
 
 if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall_switch ,false ,false) {
-	if collision_circle(x, y, range_view, obj_player, false, false) and !charging {
+	if collision_circle(x, y, range_view, obj_player, false, false) {
 		if mp_grid_path(grid, path, x, y, obj_player.x, obj_player.y, 1) {
 			path_start(path, spd, 0, 0);
 		}
 	}
-	if collision_circle(x, y, range_attack, obj_player, false, false) and !charging {
-		path_end();
-		x_target_dash = obj_player.x;
-		y_target_dash = obj_player.y;
-		alarm[1] = 1*60;
-		charging = true;
-		audio_play_sound(snd_woosh,1,false);
+	if (collision_circle(x,y,range_attack,obj_player,false,false) and can_shoot) {
+		var BulletIns = instance_create_layer(x,y,"Instances",obj_bullet_assa);
+		with(BulletIns) {
+			health_points = other.health_points
+			direction = point_direction(other.x, other.y, obj_player.x, obj_player.y);
+			sprite_index = other.sprite_index;
+			facing = other.facing;
+			tag = "enemy_assa";
+			spd = other.spd*4;
+			audio_play_sound(snd_bullet,1,false);
+		}
+		instance_destroy();
 	}
 } else if doing = 0 {
 	var range_x = irandom_range(1, 15);
