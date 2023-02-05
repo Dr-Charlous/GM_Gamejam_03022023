@@ -1,6 +1,8 @@
 outside_bounds();
 
 doing = irandom_range(0,100);
+hspd = sign(x - xprevious);
+vspd = sign(y - yprevious);
 
 randomize();
 var path = path_add();
@@ -63,7 +65,7 @@ if health_points <= 0 {
 		}
 	} else {
 		// Idle Animation
-		sprite_index = spr_3eyed_back_idle;
+		sprite_index = spr_3eyes_back_walk;
 	}
 }
 

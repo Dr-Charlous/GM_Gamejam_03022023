@@ -7,7 +7,7 @@ facing = 1;
 vertical_facing = 1;
 gamepad_id = noone;
 timer = 0;
-death_time = 20; // in seconds
+death_time = 10; // in seconds
 can_move = true;
 last_dir = 0;
 
