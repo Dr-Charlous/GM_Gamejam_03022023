@@ -110,6 +110,7 @@
     {"name":"S_Small_Demonic_Stone_002","order":42,"path":"sprites/S_Small_Demonic_Stone_002/S_Small_Demonic_Stone_002.yy",},
     {"name":"S_Mid_Demonic_Stone_004","order":21,"path":"sprites/S_Mid_Demonic_Stone_004/S_Mid_Demonic_Stone_004.yy",},
     {"name":"S_Small_Demonic_Plan_012","order":35,"path":"sprites/S_Small_Demonic_Plan_012/S_Small_Demonic_Plan_012.yy",},
+    {"name":"S_TileSet_004109","order":9,"path":"sprites/S_TileSet_004109/S_TileSet_004109.yy",},
     {"name":"S_Small_Demonic_Stone_003","order":43,"path":"sprites/S_Small_Demonic_Stone_003/S_Small_Demonic_Stone_003.yy",},
     {"name":"obj_wall_switch","order":3,"path":"objects/obj_wall_switch/obj_wall_switch.yy",},
     {"name":"macros","order":6,"path":"scripts/macros/macros.yy",},

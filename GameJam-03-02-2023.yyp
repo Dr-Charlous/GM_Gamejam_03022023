@@ -133,6 +133,7 @@
     {"id":{"name":"S_Small_Demonic_Stone_002","path":"sprites/S_Small_Demonic_Stone_002/S_Small_Demonic_Stone_002.yy",},"order":0,},
     {"id":{"name":"S_Mid_Demonic_Stone_004","path":"sprites/S_Mid_Demonic_Stone_004/S_Mid_Demonic_Stone_004.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Plan_012","path":"sprites/S_Small_Demonic_Plan_012/S_Small_Demonic_Plan_012.yy",},"order":0,},
+    {"id":{"name":"S_TileSet_004109","path":"sprites/S_TileSet_004109/S_TileSet_004109.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Stone_003","path":"sprites/S_Small_Demonic_Stone_003/S_Small_Demonic_Stone_003.yy",},"order":0,},
     {"id":{"name":"obj_wall_switch","path":"objects/obj_wall_switch/obj_wall_switch.yy",},"order":0,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":0,},
