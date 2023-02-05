@@ -163,6 +163,7 @@
     {"id":{"name":"S_Big_Demonic_Stone_006","path":"sprites/S_Big_Demonic_Stone_006/S_Big_Demonic_Stone_006.yy",},"order":0,},
     {"id":{"name":"S_Mid_Icy_Tree_005","path":"sprites/S_Mid_Icy_Tree_005/S_Mid_Icy_Tree_005.yy",},"order":0,},
     {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},"order":0,},
+    {"id":{"name":"spr_UI","path":"sprites/spr_UI/spr_UI.yy",},"order":0,},
     {"id":{"name":"S_Sheet_Ice_Wall_002","path":"sprites/S_Sheet_Ice_Wall_002/S_Sheet_Ice_Wall_002.yy",},"order":0,},
     {"id":{"name":"S_TileSet_008172","path":"sprites/S_TileSet_008172/S_TileSet_008172.yy",},"order":0,},
     {"id":{"name":"S_Small_Demonic_Plan_014","path":"sprites/S_Small_Demonic_Plan_014/S_Small_Demonic_Plan_014.yy",},"order":0,},
