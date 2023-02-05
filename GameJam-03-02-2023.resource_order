@@ -290,6 +290,7 @@
     {"name":"spr_credits_menu","order":5,"path":"sprites/spr_credits_menu/spr_credits_menu.yy",},
     {"name":"bullet_die","order":7,"path":"scripts/bullet_die/bullet_die.yy",},
     {"name":"obj_wall_switch_small_decalage","order":16,"path":"objects/obj_wall_switch_small_decalage/obj_wall_switch_small_decalage.yy",},
+    {"name":"snd_game_over","order":12,"path":"sounds/snd_game_over/snd_game_over.yy",},
     {"name":"S_TileSet_008","order":2,"path":"sprites/S_TileSet_008/S_TileSet_008.yy",},
     {"name":"spr_1eyedcor_side_idle","order":3,"path":"sprites/spr_1eyedcor_side_idle/spr_1eyedcor_side_idle.yy",},
     {"name":"Sprite111112","order":12,"path":"sprites/Sprite111112/Sprite111112.yy",},

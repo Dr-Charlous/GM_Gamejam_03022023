@@ -324,6 +324,7 @@
     {"id":{"name":"spr_credits_menu","path":"sprites/spr_credits_menu/spr_credits_menu.yy",},"order":0,},
     {"id":{"name":"bullet_die","path":"scripts/bullet_die/bullet_die.yy",},"order":0,},
     {"id":{"name":"obj_wall_switch_small_decalage","path":"objects/obj_wall_switch_small_decalage/obj_wall_switch_small_decalage.yy",},"order":0,},
+    {"id":{"name":"snd_game_over","path":"sounds/snd_game_over/snd_game_over.yy",},"order":0,},
     {"id":{"name":"S_TileSet_008","path":"sprites/S_TileSet_008/S_TileSet_008.yy",},"order":0,},
     {"id":{"name":"spr_1eyedcor_side_idle","path":"sprites/spr_1eyedcor_side_idle/spr_1eyedcor_side_idle.yy",},"order":0,},
     {"id":{"name":"Sprite111112","path":"sprites/Sprite111112/Sprite111112.yy",},"order":0,},
