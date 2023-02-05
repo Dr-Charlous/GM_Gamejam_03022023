@@ -1,11 +1,16 @@
 
-var path = path_add();
-
 var _dir = point_direction(0, 0, x_target_dash, y_target_dash);
-x_target_dash = lengthdir_x(spd, _dir);
-y_target_dash = lengthdir_y(spd, _dir);
+var x_target = lengthdir_x(range_view*2, _dir); 
+var y_target = lengthdir_y(range_view*2, _dir);
 
-if mp_grid_path(grid, path, x, y, x_target_dash, y_target_dash, 1) {
-	path_start(path, spd*10, 0, 0);
-}
+if x < x_target_dash
+	x += x_target;
+else
+	x -= x_target;
+	
+if y < y_target_dash
+	y += y_target;
+else
+	y -= y_target;
+
 charging = false;
