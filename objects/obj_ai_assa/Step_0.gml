@@ -19,6 +19,7 @@ if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and
 		y_target_dash = obj_player.y;
 		alarm[1] = 1*60;
 		charging = true;
+		audio_play_sound(snd_woosh,1,false);
 	}
 } else if doing = 0 {
 	var range_x = irandom_range(1, 15);
@@ -36,6 +37,7 @@ if health_points <= 0 {
 		sprite_index = spr_1eyed_death;
 		state = 2;
 		alarm[0] = 180;
+		audio_play_sound(snd_death,1,false);
 	}
 	instance_destroy();
 } else {

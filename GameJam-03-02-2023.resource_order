@@ -161,6 +161,7 @@
     {"name":"S_Small_Demonic_Stone_003","order":42,"path":"sprites/S_Small_Demonic_Stone_003/S_Small_Demonic_Stone_003.yy",},
     {"name":"obj_wall_switch","order":3,"path":"objects/obj_wall_switch/obj_wall_switch.yy",},
     {"name":"macros","order":6,"path":"scripts/macros/macros.yy",},
+    {"name":"snd_woosh","order":9,"path":"sounds/snd_woosh/snd_woosh.yy",},
     {"name":"spr_return","order":4,"path":"sprites/spr_return/spr_return.yy",},
     {"name":"state_player_walk","order":1,"path":"scripts/state_player_walk/state_player_walk.yy",},
     {"name":"spr_commands","order":9,"path":"sprites/spr_commands/spr_commands.yy",},
