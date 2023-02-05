@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_credits_menu",
-  "bbox_bottom": 164,
-  "bbox_left": 5,
-  "bbox_right": 421,
-  "bbox_top": 4,
+  "bbox_bottom": 169,
+  "bbox_left": 3,
+  "bbox_right": 420,
+  "bbox_top": 13,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee0a9f05-11f4-424b-8fa2-e9803325d76d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b6cd9ae6-a098-4b96-ba62-a81891954fc4",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 170,
+  "height": 177,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"402b927c-ad43-4540-bb14-0841678c5693","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3c61d0fb-c772-4b6c-adea-bad510db135f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee0a9f05-11f4-424b-8fa2-e9803325d76d","path":"sprites/spr_credits_menu/spr_credits_menu.yy",},},},"Disabled":false,"id":"4e9906b0-93af-468b-8de7-6a135d047787","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b6cd9ae6-a098-4b96-ba62-a81891954fc4","path":"sprites/spr_credits_menu/spr_credits_menu.yy",},},},"Disabled":false,"id":"29be06da-5880-4c4d-b665-914956601754","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 427,
+  "width": 424,
 }
