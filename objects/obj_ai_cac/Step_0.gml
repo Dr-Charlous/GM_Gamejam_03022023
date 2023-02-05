@@ -1,8 +1,6 @@
 outside_bounds();
 
 doing = irandom_range(0,100);
-hspd = sign(x - xprevious);
-vspd = sign(y - yprevious);
 
 randomize();
 var path = path_add();
