@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_dead",
-    "path": "sprites/spr_player_dead/spr_player_dead.yy",
+    "name": "spr_2eyed_death",
+    "path": "sprites/spr_2eyed_death/spr_2eyed_death.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -37,10 +37,10 @@ if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and
 	
 // If Dead
 if health_points <= 0 {
-	sprite_index = spr_2eyes_side_walk;
+	sprite_index = spr_3eyes_side_walk;
 	var my_corpse = instance_create_layer(x,y,"Instances",obj_dead);
 	with(my_corpse) {
-		sprite_index = spr_2eyes_side_walk;
+		sprite_index = spr_3eyes_side_walk;
 		state = 4;
 		alarm[0] = 180;
 	}
