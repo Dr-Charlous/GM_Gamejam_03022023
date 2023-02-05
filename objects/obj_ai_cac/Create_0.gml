@@ -7,7 +7,7 @@ range_view = 150;
 range_attack = 30;
 alarm_set(0,120);
 can_shoot = true;
-cooldown_shoot = 50;
+cooldown_shoot = 90;
 
 // HP
 health_points = 3;
