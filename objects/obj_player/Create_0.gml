@@ -9,6 +9,7 @@ gamepad_id = noone;
 timer = 0;
 death_time = 20; // in seconds
 can_move = true;
+last_dir = 0;
 
 // Mouse
 my_mouse = instance_create_depth(x,y,-700,obj_mouse);

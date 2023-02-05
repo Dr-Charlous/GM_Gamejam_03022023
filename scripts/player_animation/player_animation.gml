@@ -1,24 +1,23 @@
 function player_animation(){
 	
 	// Variables Initialisation
-	//if (abs(hspd) >= abs(vspd)) {
-	//	if (hspd >= 0)
-	//		var last_dir = 0;
-	//	else
-	//		var last_dir = 180;
-	//}
-	//else {
-	//	if (vspd >= 0)
-	//		var last_dir = 270;
-	//	else
-	//		var last_dir = 90;
-	//}
+	if (hspd!= 0 or vspd != 0) {
+		if (abs(hspd) >= abs(vspd)) {
+			last_dir = 0;
+		}
+		else {
+			if (sign(vspd) > 0)
+				last_dir = 270;
+			else
+				last_dir = 90;
+		}
+	}
 	
 	
 	// If Dead
 	if state == PlayerState.Dead {
 		// Wait some time before anim and stop loop
-		sprite_index = spr_shroom_side;
+		sprite_index = spr_death_player;
 		
 	} else {
 		// If Not Idle
@@ -69,13 +68,32 @@ function player_animation(){
 		} else {
 			// Idle Animation
 			if state == PlayerState.Walk
-				sprite_index = spr_shroom_side;
-			else if state == PlayerState.Assassin
-				sprite_index = spr_1eyedcor_side_idle;
-			else if state == PlayerState.ShockWave
-				sprite_index = spr_2eyedcor_side_idle;
-			else if state == PlayerState.Shoot
-				sprite_index = spr_3eyedcor_side_idle;
+				if (last_dir == 0)
+					sprite_index = spr_shroom_idle_ide;
+				else if (last_dir == 90 || last_dir == 270)
+					sprite_index = spr_shroom_idle_updown;
+			else if state == PlayerState.Assassin {
+				if (last_dir == 0)
+					sprite_index = spr_1eyedcor_side_idle;
+				else if (last_dir == 90)
+					sprite_index = spr_1eyedcor_back_idle;
+				else if (last_dir == 270)
+					sprite_index = spr_1eyedcor_front_idle;
+			} else if state == PlayerState.ShockWave {
+				if (last_dir == 0)
+					sprite_index = spr_2eyedcor_side_idle;
+				else if (last_dir == 90)
+					sprite_index = spr_2eyedcor_back_idle;
+				else if (last_dir == 270)
+					sprite_index = spr_2eyedcor_front_idle;
+			} else if state == PlayerState.Shoot {
+				if (last_dir == 0)
+					sprite_index = spr_3eyedcor_side_idle;
+				else if (last_dir == 90)
+					sprite_index = spr_3eyedcor_back_idle;
+				else if (last_dir == 270)
+					sprite_index = spr_3eyedcor_front_idle;
+			}
 		}
 	}				
 }
