@@ -8,6 +8,8 @@ if room == Menu || room == Credits {
 	}
 }
 else {
+	if audio_sound_get_gain(snd_main_game) == 0
+		audio_sound_gain(snd_main_game, 1, 800);
 	audio_sound_gain(snd_main_menu,0,800);
 	if !audio_is_playing(snd_main_game) {
 		audio_play_sound(snd_main_game,100,false);
