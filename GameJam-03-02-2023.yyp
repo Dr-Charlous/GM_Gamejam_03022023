@@ -41,7 +41,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Corrupted_by_Player","folderPath":"folders/Sprites/Enemies/Corrupted_by_Player.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Death_bodies","folderPath":"folders/Sprites/Enemies/Death_bodies.yy","order":0,},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Brushstrike trial.ttf","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "MetaData": {
     "IDEVersion": "2023.1.0.58",
@@ -160,6 +162,7 @@
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":0,},
     {"id":{"name":"spr_return","path":"sprites/spr_return/spr_return.yy",},"order":0,},
     {"id":{"name":"state_player_walk","path":"scripts/state_player_walk/state_player_walk.yy",},"order":0,},
+    {"id":{"name":"spr_commands","path":"sprites/spr_commands/spr_commands.yy",},"order":0,},
     {"id":{"name":"S_Small_Icy_Plant_011","path":"sprites/S_Small_Icy_Plant_011/S_Small_Icy_Plant_011.yy",},"order":0,},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},"order":0,},
     {"id":{"name":"S_Small_Icy_Stone_001","path":"sprites/S_Small_Icy_Stone_001/S_Small_Icy_Stone_001.yy",},"order":0,},

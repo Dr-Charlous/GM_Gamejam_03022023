@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_credits",
-    "path": "sprites/spr_credits/spr_credits.yy",
+    "name": "spr_commands",
+    "path": "sprites/spr_commands/spr_commands.yy",
   },
   "spriteMaskId": null,
   "visible": true,
