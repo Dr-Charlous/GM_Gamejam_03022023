@@ -200,6 +200,7 @@
     {"name":"obj_game","order":3,"path":"objects/obj_game/obj_game.yy",},
     {"name":"S_Mid_Demonic_Plant_003","order":15,"path":"sprites/S_Mid_Demonic_Plant_003/S_Mid_Demonic_Plant_003.yy",},
     {"name":"S_Big_Demonic_Stone_004","order":3,"path":"sprites/S_Big_Demonic_Stone_004/S_Big_Demonic_Stone_004.yy",},
+    {"name":"obj_bullet_assa","order":7,"path":"objects/obj_bullet_assa/obj_bullet_assa.yy",},
     {"name":"snd_death","order":5,"path":"sounds/snd_death/snd_death.yy",},
     {"name":"S_Small_Icy_Plant_013","order":63,"path":"sprites/S_Small_Icy_Plant_013/S_Small_Icy_Plant_013.yy",},
     {"name":"S_Big_Icy_Tree_004","order":56,"path":"sprites/S_Big_Icy_Tree_004/S_Big_Icy_Tree_004.yy",},
