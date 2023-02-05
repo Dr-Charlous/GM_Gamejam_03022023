@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_credits_menu",
-  "bbox_bottom": 162,
-  "bbox_left": 25,
-  "bbox_right": 394,
-  "bbox_top": 25,
+  "bbox_bottom": 164,
+  "bbox_left": 5,
+  "bbox_right": 421,
+  "bbox_top": 4,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98caa175-c0cb-4ca1-a04d-ab4ea430eba4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee0a9f05-11f4-424b-8fa2-e9803325d76d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 243,
+  "height": 170,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dd097d9d-2bf3-4e65-88c7-b5b8a6126d5f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"402b927c-ad43-4540-bb14-0841678c5693","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"98caa175-c0cb-4ca1-a04d-ab4ea430eba4","path":"sprites/spr_credits_menu/spr_credits_menu.yy",},},},"Disabled":false,"id":"c8f09c69-d3a5-4d84-a6d6-ea5b8a7878f8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ee0a9f05-11f4-424b-8fa2-e9803325d76d","path":"sprites/spr_credits_menu/spr_credits_menu.yy",},},},"Disabled":false,"id":"4e9906b0-93af-468b-8de7-6a135d047787","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 432,
+  "width": 427,
 }
