@@ -314,8 +314,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Init","path":"rooms/Init/Init.yy",},},
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"roomId":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},},
     {"roomId":{"name":"Level_4","path":"rooms/Level_4/Level_4.yy",},},
