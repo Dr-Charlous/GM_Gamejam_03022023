@@ -1,8 +1,6 @@
 outside_bounds();
 
 doing = irandom_range(0,100);
-hspd = sign(x - xprevious);
-vspd = sign(y - yprevious);
 
 randomize();
 var path = path_add();
@@ -46,7 +44,7 @@ if health_points <= 0 {
 	}
 	instance_destroy();
 } else {
-	if (hspd!= 0 or vspd != 0) {
+	if (hspd!= 0 || vspd != 0) {
 		// Face right direction
 		if hspd != 0
 			facing = sign(hspd);
@@ -65,7 +63,7 @@ if health_points <= 0 {
 		}
 	} else {
 		// Idle Animation
-		sprite_index = spr_1eyed_back_walk;
+		sprite_index = spr_1eyed_back_idle;
 	}
 }
 
