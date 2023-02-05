@@ -39,6 +39,7 @@ if health_points <= 0 {
 	with(my_corpse) {
 		sprite_index = spr_3eyed_death;
 		state = 4;
+		y_value = 20;
 		alarm[0] = 180;
 	}
 	instance_destroy();

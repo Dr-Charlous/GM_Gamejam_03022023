@@ -1,2 +1,3 @@
 /// @description Wall Collision
-collision(obj_wall_switch);
+if other.current_state == 0
+	collision(obj_wall_switch);
