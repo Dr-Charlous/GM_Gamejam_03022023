@@ -134,6 +134,7 @@
     {"name":"S_Big_Demonic_Tree_007","order":12,"path":"sprites/S_Big_Demonic_Tree_007/S_Big_Demonic_Tree_007.yy",},
     {"name":"spr_level_9","order":8,"path":"sprites/spr_level_9/spr_level_9.yy",},
     {"name":"Level_9","order":15,"path":"rooms/Level_9/Level_9.yy",},
+    {"name":"S_ground_02","order":13,"path":"sprites/S_ground_02/S_ground_02.yy",},
     {"name":"S_Small_Icy_Plant_014","order":53,"path":"sprites/S_Small_Icy_Plant_014/S_Small_Icy_Plant_014.yy",},
     {"name":"S_TileSet_006","order":8,"path":"sprites/S_TileSet_006/S_TileSet_006.yy",},
     {"name":"spr_1eyed_front_walk","order":6,"path":"sprites/spr_1eyed_front_walk/spr_1eyed_front_walk.yy",},
