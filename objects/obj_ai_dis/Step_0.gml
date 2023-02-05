@@ -47,7 +47,7 @@ if health_points <= 0 {
 	}
 	instance_destroy();
 } else {
-	if (hspd!= 0 or vspd != 0) {
+	if (hspd!= 0 || vspd != 0) {
 		// Face right direction
 		if hspd != 0
 			facing = sign(hspd);
