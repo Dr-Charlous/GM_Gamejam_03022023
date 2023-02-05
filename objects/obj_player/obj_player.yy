@@ -44,8 +44,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_idle",
-    "path": "sprites/spr_player_idle/spr_player_idle.yy",
+    "name": "spr_shroom_updown",
+    "path": "sprites/spr_shroom_updown/spr_shroom_updown.yy",
   },
   "spriteMaskId": {
     "name": "spr_player_idle",
