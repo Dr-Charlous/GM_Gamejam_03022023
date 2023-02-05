@@ -14,12 +14,9 @@ if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and
 		}
 	}
 } else if doing = 0 {
-	var range_x = irandom_range(-range_view, range_view);
-	var range_y = irandom_range(-range_view, range_view);
-	var _dir = point_direction(0, 0, range_x, range_y);
-	var nearest_x = lengthdir_x(range_view, _dir);
-	var nearest_y = lengthdir_y(range_view, _dir);
-	if mp_grid_path(grid, path, x, y, nearest_x, nearest_y, 1) {
+	var range_x = irandom_range(1, 15);
+	var range_y = irandom_range(1, 15);
+	if mp_grid_path(grid, path, x, y, range_x*room_width div 16, range_y*room_width div 16, 1) and !instance_place(range_x*room_width div 16,range_y*room_width div 16,obj_wall) {
 		path_start(path, spd, 0, 0);
 	}
 }
