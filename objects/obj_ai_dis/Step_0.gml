@@ -23,6 +23,7 @@ if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and
 if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall_switch ,false ,false) {
 	if (collision_circle(x,y,range_attack,obj_player,false,false) and can_shoot) {
 		var BulletIns = instance_create_layer(x,y,"Instances",obj_bullet_dis);
+		//vertical_facing = 2;
 		with(BulletIns) {
 			direction = point_direction(other.x, other.y, obj_player.x, obj_player.y);
 			tag = "enemy_dis";
@@ -85,3 +86,4 @@ if (distance_to_object(obj_player)) < 10 {
 
 // Normal Facing
 facing = lerp(facing, sign(facing), 0.3);
+//vertical_facing = lerp(vertical_facing, sign(vertical_facing), 0.01);

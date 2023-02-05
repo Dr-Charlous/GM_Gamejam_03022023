@@ -3,6 +3,7 @@ spd = 0.7;
 hspd = x;
 vspd = y;
 facing = 1;
+vertical_facing = 1;
 range_view = 100;
 range_attack = 60;
 alarm_set(0,120);

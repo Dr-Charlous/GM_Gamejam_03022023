@@ -67,11 +67,12 @@ function player_animation(){
 			}
 		} else {
 			// Idle Animation
-			if state == PlayerState.Walk
+			if state == PlayerState.Walk {
 				if (last_dir == 0)
 					sprite_index = spr_shroom_idle_ide;
 				else if (last_dir == 90 || last_dir == 270)
 					sprite_index = spr_shroom_idle_updown;
+			}
 			else if state == PlayerState.Assassin {
 				if (last_dir == 0)
 					sprite_index = spr_1eyedcor_side_idle;
