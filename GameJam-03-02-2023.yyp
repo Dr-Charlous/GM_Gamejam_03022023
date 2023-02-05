@@ -218,6 +218,7 @@
     {"id":{"name":"S_TileSet_002165","path":"sprites/S_TileSet_002165/S_TileSet_002165.yy",},"order":0,},
     {"id":{"name":"state_player_dead","path":"scripts/state_player_dead/state_player_dead.yy",},"order":0,},
     {"id":{"name":"Level_8","path":"rooms/Level_8/Level_8.yy",},"order":0,},
+    {"id":{"name":"spr_press_to_possess","path":"sprites/spr_press_to_possess/spr_press_to_possess.yy",},"order":0,},
     {"id":{"name":"obj_commands_button","path":"objects/obj_commands_button/obj_commands_button.yy",},"order":0,},
     {"id":{"name":"spr_level_8","path":"sprites/spr_level_8/spr_level_8.yy",},"order":0,},
     {"id":{"name":"S_TileSet_001","path":"sprites/S_TileSet_001/S_TileSet_001.yy",},"order":0,},

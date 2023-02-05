@@ -191,6 +191,7 @@
     {"name":"S_TileSet_002165","order":14,"path":"sprites/S_TileSet_002165/S_TileSet_002165.yy",},
     {"name":"state_player_dead","order":2,"path":"scripts/state_player_dead/state_player_dead.yy",},
     {"name":"Level_8","order":14,"path":"rooms/Level_8/Level_8.yy",},
+    {"name":"spr_press_to_possess","order":15,"path":"sprites/spr_press_to_possess/spr_press_to_possess.yy",},
     {"name":"obj_commands_button","order":4,"path":"objects/obj_commands_button/obj_commands_button.yy",},
     {"name":"spr_level_8","order":7,"path":"sprites/spr_level_8/spr_level_8.yy",},
     {"name":"S_Big_Demonic_Tree_006","order":11,"path":"sprites/S_Big_Demonic_Tree_006/S_Big_Demonic_Tree_006.yy",},
