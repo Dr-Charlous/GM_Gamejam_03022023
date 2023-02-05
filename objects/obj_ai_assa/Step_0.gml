@@ -72,8 +72,12 @@ if (distance_to_object(obj_player)) < 10 {
 		invincible = true;
 		alarm[INVINCIBILITY] = invincibility_time;
 		screen_shake(0.3,5);
+		facing = 0.6;
 		if health_points > 0
 			health_points--;
 		}
 	}	
 }
+
+// Normal Facing
+facing = lerp(facing, sign(facing), 0.3);

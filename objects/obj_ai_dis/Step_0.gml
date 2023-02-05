@@ -37,10 +37,10 @@ if !collision_line(x, y, obj_player.x ,obj_player.y ,obj_wall ,false ,false) and
 	
 // If Dead
 if health_points <= 0 {
-	sprite_index = spr_3eyes_side_walk;
+	sprite_index = spr_3eyed_death;
 	var my_corpse = instance_create_layer(x,y,"Instances",obj_dead);
 	with(my_corpse) {
-		sprite_index = spr_3eyes_side_walk;
+		sprite_index = spr_3eyed_death;
 		state = 4;
 		alarm[0] = 180;
 	}
@@ -75,9 +75,13 @@ if (distance_to_object(obj_player)) < 10 {
 	if (!invincible) {
 		invincible = true;
 		alarm[INVINCIBILITY] = invincibility_time;
+		facing = 0.6;
 		screen_shake(0.3,5);
 		if health_points > 0
 			health_points--;
 		}
 	}	
 }
+
+// Normal Facing
+facing = lerp(facing, sign(facing), 0.3);
