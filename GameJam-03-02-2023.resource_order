@@ -74,6 +74,7 @@
     {"name":"S_Small_Demonic_Plan_006","order":29,"path":"sprites/S_Small_Demonic_Plan_006/S_Small_Demonic_Plan_006.yy",},
     {"name":"shoot","order":11,"path":"scripts/shoot/shoot.yy",},
     {"name":"S_Small_Demonic_Plan_011","order":34,"path":"sprites/S_Small_Demonic_Plan_011/S_Small_Demonic_Plan_011.yy",},
+    {"name":"spr_level_3","order":2,"path":"sprites/spr_level_3/spr_level_3.yy",},
     {"name":"S_Small_Demonic_Plan_004","order":27,"path":"sprites/S_Small_Demonic_Plan_004/S_Small_Demonic_Plan_004.yy",},
     {"name":"obj_shockwave","order":1,"path":"objects/obj_shockwave/obj_shockwave.yy",},
     {"name":"spr_2eyes_back_walk","order":2,"path":"sprites/spr_2eyes_back_walk/spr_2eyes_back_walk.yy",},
@@ -171,5 +172,6 @@
     {"name":"spr_credits_menu","order":5,"path":"sprites/spr_credits_menu/spr_credits_menu.yy",},
     {"name":"bullet_die","order":7,"path":"scripts/bullet_die/bullet_die.yy",},
     {"name":"S_TileSet_008","order":2,"path":"sprites/S_TileSet_008/S_TileSet_008.yy",},
+    {"name":"Level_3","order":7,"path":"rooms/Level_3/Level_3.yy",},
   ],
 }
