@@ -137,6 +137,7 @@
     {"name":"S_Big_Demonic_Stone_006","order":5,"path":"sprites/S_Big_Demonic_Stone_006/S_Big_Demonic_Stone_006.yy",},
     {"name":"S_Mid_Icy_Tree_005","order":73,"path":"sprites/S_Mid_Icy_Tree_005/S_Mid_Icy_Tree_005.yy",},
     {"name":"Credits","order":2,"path":"rooms/Credits/Credits.yy",},
+    {"name":"spr_UI","order":17,"path":"sprites/spr_UI/spr_UI.yy",},
     {"name":"S_Sheet_Ice_Wall_002","order":46,"path":"sprites/S_Sheet_Ice_Wall_002/S_Sheet_Ice_Wall_002.yy",},
     {"name":"S_TileSet_008172","order":21,"path":"sprites/S_TileSet_008172/S_TileSet_008172.yy",},
     {"name":"S_Small_Demonic_Plan_014","order":35,"path":"sprites/S_Small_Demonic_Plan_014/S_Small_Demonic_Plan_014.yy",},
