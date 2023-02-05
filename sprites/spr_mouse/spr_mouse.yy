@@ -26,7 +26,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"429e8b09-7b1a-4e08-a8c8-b48c500ac300","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 4,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
@@ -65,7 +65,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 18,
+    "xorigin": 17,
     "yorigin": 14,
   },
   "swatchColours": null,

@@ -1,4 +1,4 @@
-if (distance_to_object(obj_player)> 1) {
+if (distance_to_object(obj_player)> 1 && distance_to_object(obj_ai_assa)> 1 && distance_to_object(obj_ai_cac)> 1 && distance_to_object(obj_ai_dis)> 1) {
 	current_state++;
 	current_state %= 2;
 	if (current_state == 1)
